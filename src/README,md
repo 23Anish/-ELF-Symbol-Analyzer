@@ -1,0 +1,7 @@
+ELF-Symbol-Analyzer/
+├── CMakeLists.txt
+├── README.md
+└── src/
+    ├── main.cpp         — CLI arg parsing, entry point
+    ├── elf_parser.h/cpp — ELF struct parsing (32+64, LE+BE)
+    ├── reporter.h/cpp   — text and JSON output
